@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Specifies the character encoding for the HTML document -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+
+    <!-- Links to the favicon for the website, displayed in the browser tab -->
+    <link rel="shortcut icon" href="/assets/img/fav.png" type="image/x-icon" />
+
+    <!-- Links to the Font Awesome library for icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Links to the main CSS stylesheet for custom styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Sets the title of the webpage -->
+    <title>EpicEscapes</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <!-- Main header section of the webpage -->
+
+      <nav class="nav container">
+        <!-- Navigation bar containing links and logo -->
+
+        <a href="#" class="nav-logo"> EpicEscapes </a>
+        <!-- Logo of the website, links to the homepage -->
+
+        <div class="nav-menu" id="nav-menu">
+          <!-- Navigation menu containing the list of links -->
+
+          <ul class="nav-list">
+            <!-- Unordered list for navigation items -->
+
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <!-- Link to the home section, marked as active -->
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+              <!-- Link to the about section -->
+            </li>
+
+            <li class="nav-item">
+              <a href="#popular" class="nav-link">Popular</a>
+              <!-- Link to the popular section -->
+            </li>
+
+            <li class="nav-item">
+              <a href="#explore" class="nav-link">Explore</a>
+              <!-- Link to the explore section -->
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <!-- Button to close the navigation menu -->
+            <i class="fa-solid fa-xmark"></i>
+            <!-- Icon for the close button -->
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <!-- Button to toggle the navigation menu visibility -->
+          <i class="fa-solid fa-bars"></i>
+          <!-- Icon for the toggle button (hamburger menu) -->
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Main content area of the webpage, where the primary content is displayed -->
+
+      <!-- Home section -->
+      <section class="home section" id="home">
+        <!-- Home section of the webpage, serving as the landing area -->
+
+        <img
+          src="/assets/img/home-bg.jpg"
+          alt="Background image"
+          class="home-bg"
+        />
+        <!-- Background image for the home section -->
+
+        <div class="shadow"></div>
+        <!-- Overlay shadow effect for visual depth -->
+
+        <div class="home-container container grid">
+          <!-- Container for the main content and cards, using a grid layout -->
+
+          <div class="home-data">
+            <!-- Contains the main text content for the home section -->
+
+            <h3 class="home-subtitle">Welcome to EpicEscapes</h3>
+            <!-- Subtitle welcoming users to the site -->
+
+            <h1 class="home-title">
+              Your Gateway to <br />
+              Extraordinary Adventures
+            </h1>
+            <!-- Main title for the section, highlighting the site's purpose -->
+
+            <p class="home-desc">
+              Explore the world, discover new cultures, and create unforgettable
+              memories with EpicEscapes. Our expertly curated tours will take
+              you on your way to discover the most epic adventures.
+            </p>
+            <!-- Description providing an overview of what EpicEscapes offers -->
+
+            <a href="#" class="button home-btn">
+              Start Your Journey <i class="fa-regular fa-hand-point-right"></i>
+            </a>
+            <!-- Call-to-action button encouraging users to begin their journey -->
+          </div>
+
+          <div class="home-cards grid">
+            <!-- Grid container for the destination cards -->
+
+            <article class="home-card">
+              <!-- Individual card for a destination -->
+
+              <img
+                src="/assets/img/india.jpg"
+                alt="home image"
+                class="home-card-img"
+              />
+              <!-- Image representing the destination -->
+
+              <h3 class="card-title">India</h3>
+              <!-- Title of the destination -->
+
+              <div class="card-shadow"></div>
+              <!-- Shadow effect for the card -->
+            </article>
+
+            <article class="home-card">
+              <!-- Another destination card -->
+
+              <img
+                src="/assets/img/canada.jpg"
+                alt="home image"
+                class="home-card-img"
+              />
+              <h3 class="card-title">Canada</h3>
+              <div class="card-shadow"></div>
+            </article>
+
+            <article class="home-card">
+              <!-- Another destination card -->
+
+              <img
+                src="/assets/img/dubai.jpg"
+                alt="home image"
+                class="home-card-img"
+              />
+              <h3 class="card-title">Dubai</h3>
+              <div class="card-shadow"></div>
+            </article>
+
+            <article class="home-card">
+              <!-- Another destination card -->
+
+              <img
+                src="/assets/img/brazil.jpg"
+                alt="home image"
+                class="home-card-img"
+              />
+              <h3 class="card-title">Brazil</h3>
+              <div class="card-shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about section" id="about">
+        <!-- About section of the webpage, providing information about EpicEscapes -->
+
+        <div class="about-container container grid">
+          <!-- Container for the about content, using a grid layout -->
+
+          <div class="about-data">
+            <!-- Contains the textual content for the about section -->
+
+            <h2 class="section-title">
+              Learn More <br />
+              About EpicEscapes
+            </h2>
+            <!-- Title of the section inviting users to learn more -->
+
+            <p class="about-desc">
+              EpicEscapes is a travel agency that offers expertly curated tours
+              to some of the most beautiful destinations around the world. Our
+              team of travel experts has years of experience in planning and
+              executing unforgettable trips for our clients. We take care of
+              every detail, from booking flights and travel trips to arranging
+              accommodations and activities.
+            </p>
+            <!-- Description of EpicEscapes, outlining services and expertise -->
+
+            <a href="#" class="button">
+              Explore Travel <i class="fa-regular fa-hand-point-right"></i>
+            </a>
+            <!-- Call-to-action button encouraging users to explore travel options -->
+          </div>
+
+          <div class="about-image">
+            <!-- Container for the image related to the about section -->
+
+            <img
+              src="/assets/img/ab-1.jpg"
+              alt="about image"
+              class="about-img"
+            />
+            <!-- Image representing EpicEscapes or travel experiences -->
+
+            <div class="about-shadow"></div>
+            <!-- Shadow effect for the image, adding visual depth -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular section -->
+      <section class="popular section" id="popular">
+        <!-- Popular destinations section showcasing beautiful locations around the world -->
+
+        <h2 class="section-title">
+          Enjoy The Beauty <br />
+          Of The World
+        </h2>
+        <!-- Title of the section inviting users to explore popular destinations -->
+
+        <div class="popular-container container grid">
+          <!-- Container for popular cards, using a grid layout -->
+
+          <article class="popular-card">
+            <!-- Individual card for a popular destination -->
+
+            <div class="popular-image">
+              <!-- Container for the destination image -->
+
+              <img
+                src="/assets/img/po-1.jpg"
+                alt="popular image"
+                class="popular-img"
+              />
+              <!-- Image representing the popular destination -->
+
+              <div class="popular-shadow"></div>
+              <!-- Shadow effect for the image, adding visual depth -->
+            </div>
+
+            <h2 class="popular-title">Coyote Gulch</h2>
+            <!-- Title of the popular destination -->
+
+            <div class="popular-location">
+              <!-- Container for location information -->
+
+              <i class="fa-solid fa-map-location-dot"></i>
+              <!-- Icon indicating location -->
+              <span>USA</span>
+              <!-- Text displaying the location -->
+            </div>
+          </article>
+
+          <article class="popular-card">
+            <!-- Another popular destination card -->
+
+            <div class="popular-image">
+              <!-- Container for the destination image -->
+              <img
+                src="/assets/img/po-2.jpg"
+                alt="popular image"
+                class="popular-img"
+              />
+              <!-- Image representing the popular destination -->
+
+              <div class="popular-shadow"></div>
+              <!-- Shadow effect for the image, adding visual depth -->
+            </div>
+
+            <h2 class="popular-title">Écrins National Park</h2>
+            <!-- Title of the popular destination -->
+
+            <div class="popular-location">
+              <!-- Container for location information -->
+              <i class="fa-solid fa-map-location-dot"></i>
+              <!-- Icon indicating location -->
+              <span>France</span>
+              <!-- Text displaying the location -->
+            </div>
+          </article>
+
+          <article class="popular-card">
+            <!-- Another popular destination card -->
+
+            <div class="popular-image">
+              <!-- Container for the destination image -->
+              <img
+                src="/assets/img/po-3.jpg"
+                alt="popular image"
+                class="popular-img"
+              />
+              <!-- Image representing the popular destination -->
+
+              <div class="popular-shadow"></div>
+              <!-- Shadow effect for the image, adding visual depth -->
+            </div>
+
+            <h2 class="popular-title">Lago di Braies</h2>
+            <!-- Title of the popular destination -->
+            <div class="popular-location">
+              <!-- Container for location information -->
+              <i class="fa-solid fa-map-location-dot"></i>
+              <!-- Icon indicating location -->
+              <span>Italy</span>
+              <!-- Text displaying the location -->
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Explore section -->
+      <section class="explore section" id="explore">
+        <!-- Explore section inviting users to discover new travel destinations -->
+
+        <div class="explore-container">
+          <!-- Container for the explore section content -->
+
+          <div class="explore-image">
+            <!-- Container for the main image in the explore section -->
+
+            <img
+              src="/assets/img/explore-1.jpg"
+              alt="explore image"
+              class="explore-img"
+            />
+            <!-- Image representing exploration or travel -->
+
+            <div class="explore-shadow"></div>
+            <!-- Shadow effect for the image, adding visual depth -->
+          </div>
+
+          <div class="explore-content container grid">
+            <!-- Container for the textual content and user information, using a grid layout -->
+
+            <div class="explore-data">
+              <!-- Contains the main text content for the explore section -->
+
+              <h2 class="section-title">
+                Explore Destinations: <br />
+                Uncover Your Next Adventure
+              </h2>
+              <!-- Title of the section encouraging users to discover new adventures -->
+
+              <p class="explore-desc">
+                Whether you're a beginner or a seasoned traveler, EpicEscapes
+                has the perfect destination for you. From the vibrant Coyote
+                Gulch to the serene Écrins National Park, we've got you covered.
+                Whether you're looking for a unique experience or simply looking
+                for a new way to explore your favorite destinations, we're here
+                to help.
+              </p>
+              <!-- Description highlighting the variety of destinations available -->
+            </div>
+
+            <div class="explore-user">
+              <!-- Container for user information -->
+
+              <img
+                src="/assets/img/profile.png"
+                alt="user-image"
+                class="explore-profile"
+              />
+              <!-- User profile image -->
+
+              <span class="user-name"> Paul James </span>
+              <!-- Name of the user, possibly a testimonial or featured traveler -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Join section ( NewsLetter ) -->
+      <section class="join section">
+        <!-- Join section encouraging users to subscribe to the newsletter -->
+
+        <div class="join-container container grid">
+          <!-- Container for join content, using a grid layout -->
+
+          <div class="join-data">
+            <!-- Contains the textual content for the join section -->
+
+            <h2 class="section-title">
+              Stay Informed <br />
+              About Our Latest Offers
+            </h2>
+            <!-- Title inviting users to stay updated on offers -->
+
+            <p class="join-desc">
+              Sign up for our monthly newsletter to receive exclusive offers,
+              travel tips, and updates on our latest destinations.
+            </p>
+            <!-- Description explaining the benefits of subscribing -->
+
+            <form class="join-form">
+              <!-- Form for users to input their email for subscription -->
+
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="join-input"
+              />
+              <!-- Input field for email address -->
+
+              <button class="join-button button">
+                Subscribe Our Newsletter<i class="fa-regular fa-newspaper"></i>
+              </button>
+              <!-- Button to submit the subscription form -->
+            </form>
+          </div>
+
+          <div class="join-image">
+            <!-- Container for the image related to the join section -->
+
+            <img src="/assets/img/jo-1.jpg" alt="join image" class="join-img" />
+            <!-- Image representing the concept of joining or subscribing -->
+
+            <div class="join-shadow"></div>
+            <!-- Shadow effect for the image, adding visual depth -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- Footer section containing information about the company and navigation links -->
+
+      <div class="footer-container container grid">
+        <!-- Container for the footer content, using a grid layout -->
+
+        <div class="footer-content grid">
+          <!-- Main content area of the footer, structured in a grid -->
+
+          <div class="footer-logo-data">
+            <!-- Container for the logo and description -->
+
+            <a href="#" class="footer-logo">EpicEscapes</a>
+            <!-- Logo of the company, linking to the homepage -->
+
+            <p class="footer-desc">
+              At EpicEscapes, we believe that travel transforms lives. Our
+              mission is to connect you with unforgettable experiences, whether
+              you're seeking adventure, relaxation, or cultural immersion. With
+              expert guidance and personalized itineraries, we help you explore
+              the world's hidden gems and iconic landmarks. Join us in crafting
+              your next epic journey!
+            </p>
+            <!-- Description of the company, outlining its mission and values -->
+          </div>
+
+          <div class="footer-data grid">
+            <!-- Container for additional footer sections, structured in a grid -->
+
+            <div>
+              <!-- Section for 'About' links -->
+              <h3 class="footer-title">About</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">About Us</a>
+                  <!-- Link to the 'About Us' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Features</a>
+                  <!-- Link to the 'Features' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">News & Blogs</a>
+                  <!-- Link to the 'News & Blogs' page -->
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <!-- Section for 'Company' links -->
+              <h3 class="footer-title">Company</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">FAQs</a>
+                  <!-- Link to the 'FAQs' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">History</a>
+                  <!-- Link to the 'History' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Testimonials</a>
+                  <!-- Link to the 'Testimonials' page -->
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <!-- Section for 'Contact' links -->
+              <h3 class="footer-title">Contact</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">Call Center</a>
+                  <!-- Link to the 'Call Center' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Support Center</a>
+                  <!-- Link to the 'Support Center' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Contact</a>
+                  <!-- Link to the 'Contact' page -->
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <!-- Section for 'Support' links -->
+              <h3 class="footer-title">Support</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">Privacy Policy</a>
+                  <!-- Link to the 'Privacy Policy' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Terms & Services</a>
+                  <!-- Link to the 'Terms & Services' page -->
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Payments</a>
+                  <!-- Link to the 'Payments' page -->
+                </li>
+              </ul>
+            </div>
+            <!-- Closing tags for the previous divs -->
+          </div>
+        </div>
+
+        <div class="footer-group">
+          <!-- Container for social media links and copyright notice -->
+
+          <div class="footer-social">
+            <!-- Social media links section -->
+            <a href="#" class="social-link" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+              <!-- Facebook icon link -->
+            </a>
+
+            <a href="#" class="social-link" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+              <!-- Instagram icon link -->
+            </a>
+
+            <a href="#" class="social-link" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i>
+              <!-- Twitter icon link -->
+            </a>
+
+            <a href="#" class="social-link" target="_blank">
+              <i class="fa-brands fa-youtube"></i>
+              <!-- YouTube icon link -->
+            </a>
+          </div>
+
+          <span class="copy"> &copy; Copyright: All rights reserved </span>
+          <!-- Copyright notice -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-angles-up"></i>
+      <!-- Scroll up button with an upward arrow icon -->
+    </a>
+
+    <!-- scrollreveal -->
+    <script src="/assets/js/scrollreveal.min.js"></script>
+    <!-- Include the ScrollReveal library for animating elements on scroll -->
+
+    <!-- custom javascript -->
+    <script src="assets/js/main.js"></script>
+    <!-- Include the main JavaScript file for custom scripts and functionality -->
+  </body>
+</html>
