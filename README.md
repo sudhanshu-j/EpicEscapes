@@ -220,7 +220,7 @@ We welcome contributions to enhance the functionality and design of EpicEscapes.
 *Screenshot of the "About Us" section, introducing the EpicEscapes travel agency.*
 
 ### Demo
-You can view the live demo of this project at [Live Demo Link](http://example.com). *(Replace with your actual demo link)*
+You can view the live demo of this project at [Live Demo Link](https://epicescapes.netlify.app/). *(Replace with your actual demo link)*
 
 ---
 
