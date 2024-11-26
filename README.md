@@ -205,7 +205,7 @@ We welcome contributions to enhance the functionality and design of EpicEscapes.
 
 - **Unsplash**: For providing high-quality, free-to-use images that enhance the design of the site.
 
-## Screenshots
+<!-- ## Screenshots
 
 ### Home Page
 ![Home Page](path/to/homepage-screenshot.png)
@@ -217,10 +217,10 @@ We welcome contributions to enhance the functionality and design of EpicEscapes.
 
 ### About Section
 ![About Section](path/to/about-section-screenshot.png)
-*Screenshot of the "About Us" section, introducing the EpicEscapes travel agency.*
+*Screenshot of the "About Us" section, introducing the EpicEscapes travel agency.* -->
 
 ### Demo
-You can view the live demo of this project at [Live Demo Link](https://epicescapes.netlify.app/). *(Replace with your actual demo link)*
+You can view the live demo of this project at [Live Demo Link](https://epicescapes.netlify.app/).
 
 ---
 
